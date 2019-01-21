@@ -1,0 +1,13 @@
+/* body {
+    background-color: lightcoral;
+} */
+
+article {
+    display: flex;
+    justify-content: space-around;
+}
+
+.food {
+    border: 2px solid darkred;
+    text-align: center;
+}
