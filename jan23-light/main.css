@@ -1,0 +1,83 @@
+
+/* AUDREY */
+/* #container {
+    display: flex;
+    min-height: 1500px;
+  }
+  
+  #audrey {
+    background-color: purple;
+    color: snow;
+    min-height: 100px;
+    min-width: 50px;
+    position: fixed;
+  } */
+
+  /* MIRROR MIRROR */
+  /* .magicman {
+      display: flex;
+      flex-direction: row;
+  }
+
+  #redbox {
+      border: 2px solid red;
+      height: 30px;
+      width: 300px;
+      margin-top: 14px;
+      margin-left: 25px;
+  }
+
+  #bluebox {
+      border: 2px solid blue;
+      height: 30px;
+      width: 300px;
+      margin-top: 14px;
+  } */
+
+  /* SUPERPOWERS */
+/* .disabled {
+    background-color: gray;
+}
+
+.enabled {
+    background-color: fuchsia;
+    color: goldenrod;
+} */
+
+  /* CARD CREATOR */
+/* .card {
+    border: 1px solid black;
+} */
+
+  /* CHORTLEHOORT GRID PUZZLE */
+body {
+    padding: 20px;
+    font-family: Helvetica;
+    background-color: #20262e;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .stage {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .currentStage {
+    min-height: 100px;
+    border: 1px dotted lightpink;
+    margin-bottom: 15px;
+  }
+  
+  .finishedStage {
+    min-height: 100px;
+    border: 1px dotted lightseagreen;
+    margin-top: 15px;
+  }
+  
